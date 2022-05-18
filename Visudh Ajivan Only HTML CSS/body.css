@@ -1,0 +1,59 @@
+html{
+    min-width: 550px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.complete{
+    display: inline;
+}
+
+#body-content{
+    position: relative;
+    justify-content: left;
+    top: 20vh;
+    display: flex;
+    
+}
+
+
+#body-content h1{
+    /* margin-left: 5%; */
+    position: relative;
+    top: 30%;
+    color: grey;
+}
+
+#body-content h2{
+    /* margin-left: 5%; */
+    position: relative;
+    top: 35%;
+    color: red;
+}
+
+#doctor-image{
+    width: 49%;
+}
+
+#body-content .join-button{
+    color: #131418;
+    background-color: #1f8dab;
+    border: 1.5px solid #61DAFB;
+    border-radius: 2em;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#body-content .join-button:hover {
+    color: white;
+    background-color: rgb(231, 82, 82);
+    border:1.5px solid #f95b5b;
+    transition: all ease-in-out 350ms;
+}
+
+#body-content .join-button{
+    /* margin-left: 5%; */
+    position: relative;
+    top: 50%;
+}
+

@@ -1,0 +1,50 @@
+@import url(//fonts.cdnfonts.com/css/gotham-rounded-medium);
+@import url(//fonts.cdnfonts.com/css/gotham-rounded); /* with several medium wght */
+
+main {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6vw;
+	margin: auto;
+    color: red;
+}
+
+hr {
+    background-color: rgb(253, 252, 252);
+    padding: 0;
+    margin: 80px;
+  }
+  
+  hr.hr-1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), navy, rgba(0, 0, 0, 0));
+  }
+
+/* body, html {
+	height: 100%;
+	display: grid;
+	padding: 34px;
+	text-align: center;
+	color: crimson;
+	font-family: 'Gotham Rounded Book';
+	font-size: 22px;
+} */
+
+img, #float {
+	float: left;
+}
+
+#float {
+	margin-left: 20px;
+	margin-top: 80px;
+	text-align: left;
+	max-inline-size: 620px;
+    color: red;
+}
+
+b {
+    color: red;
+	font-family: 'Gotham Rounded';
+}
